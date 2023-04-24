@@ -17,6 +17,7 @@ body{
     left: 0;
     width: 100%;
     justify-content: space-around;
+    border: solid 1px;
 }
 
 .header h1{
@@ -108,6 +109,84 @@ body{
     margin-top: 30px;
 }
 /* contato */
+
+
+.contato-div fieldset{
+    border: none;
+    font-family: ephesis;
+    font-weight: 600;
+    font-size: 45px;
+    background-color: aliceblue;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: #1d5266 5px 5px 15px 5px;
+    
+}
+
+.logo-contato img{
+    height: 100%;
+    width: 100%;
+    margin-left: 120px;
+}
+
+.logo-contato{
+    
+  position: fixed;
+  left: 30%;
+  top: 20%;
+}
+
+.contato-div{
+    display: flex;
+    position: fixed;
+    top: 25.5%;
+    left: 15%;
+}
+
+.contato-div input{
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.label-checkbox{
+    font-size: 30px;
+}
+
+
+#checkbox{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#name{
+    margin-left: 31px;
+}
+
+#email{
+    margin-left: 8px;
+}
+
+#button{
+    height: 50px;
+    width: 200px;
+    background-color: #dc660b;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#button:hover{
+    background-color: #1d5266;
+    cursor: pointer;
+}
+
 
 /* sobre */
 
